@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "jihun",
+      "name": "jihun",
+      "passwd": "jihun1234",
+      "email": "jihun@hanul.com",
+      "phone": "0621112222"
+    },
+    {
+      "id": "jaejun",
+      "name": "jaejun",
+      "passwd": "jaejun5678",
+      "email": "jaejun@hanul.com",
+      "phone": "0623334444"
+    },
+    {
+      "id": "sujin",
+      "name": "sujin",
+      "passwd": "sujin2356",
+      "email": "sujin@hanul.com",
+      "phone": "0625557777"
+    }
+   
+  ]
+}

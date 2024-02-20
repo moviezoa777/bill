@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+.gap-1 {
+    gap: 1rem;
+}
+.d-flex {
+    display: flex;
+}
+.j-between {
+    justify-content: space-between;
+}
+.j-left {
+    justify-content: left;
+}
+.j-center {
+    justify-content: center;
+}
+.f-direction {
+    flex-direction: column;
+}
+
+
+/* ============= form =============*/
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 10;
+    padding: 10px;
+}
+form>h1 {
+    text-align: center;
+}
+form>div:nth-child(3) input {
+    margin-left: 44px;
+   
+}
+form>div:nth-child(3) button {
+    width: 70px;
+    height: 30px; 
+    margin: 0px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+
+.input {
+    
+    width: 345px;
+    height: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.input_two>input {
+    height: 27px; 
+}
+.input_three>input {
+    height: 27px;
+}
+
+select {
+    margin-left: 76px;
+    width: 49px;
+    height: 30px;
+}
+
+#modal_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

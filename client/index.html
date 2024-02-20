@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="h-container d-flex j-between a-items">
+            <div class="logo">
+                <img src="image/logo.png" alt="로고">
+            </div>
+            
+            <form id="loginForm" autocomplete="off" class="container d-flex j-end gap-1" >
+                <label for="user_id">아이디</label>
+                <input type="text" id="user_id">
+                <label for="user_pw">비번</label>
+                <input type="text" id="user_pw">
+                <button type="submit" > 로그인 </button>
+                <button type="button">
+                    <a href="login.html">회원가입</a> 
+                </button>
+            </form>
+        </div>
+        
+        <hr>
+    </header>
+    <section>
+       
+          <div class="carousel_main">
+            <!-- 캐러셀 이미지 삽입 -->
+            <div class="carousel_wrapper">
+                <div class="carousel_slide">
+                    <img src="image/image01.jpg" alt="#" />
+                </div>
+                <div class="carousel_slide">
+                    <img src="image/image02.jpg" alt="#" />
+                </div>
+                <div class="carousel_slide">
+                    <img src="image/image03.jpg" alt="#" />
+                </div>
+                <div class="carousel_slide">
+                    <img src="image/image04.jpg" alt="#" />
+                </div>
+            </div>
+        
+            <!-- 캐러셀 사이드 버튼 -->
+            <div class="carousel_button_container">
+                <button type="button" class="carousel_prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                        <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                    </svg>
+                </button>
+                <button type="button" class="carousel_next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </button>
+            </div>
+        
+            <!-- 캐러셀 중앙 버튼 -->
+            <div class="carousel_pagination">
+                <div class="carousel_circle"></div>
+                <div class="carousel_circle"></div>
+                <div class="carousel_circle"></div>
+                <div class="carousel_circle"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+ 
+   
+<script src="js/script.js"> </script>    
+</body>
+</html>
